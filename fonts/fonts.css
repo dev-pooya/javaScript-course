@@ -1,0 +1,126 @@
+/* فونت ایران سنس */
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 200;
+  src: url("./woff/IRANSansWeb_UltraLight.woff");
+}
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./woff/IRANSansWeb_FaNum_Light.woff");
+}
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./woff/IRANSansWeb_FaNum.woff");
+}
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./woff/IRANSansWeb_FaNum_Medium.woff");
+}
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./woff/IRANSansWeb_FaNum_Bold.woff");
+}
+@font-face {
+  font-family: "iran-sans";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./woff/IRANSansWeb_FaNum_Black.woff");
+}
+/* فونت ایران یکان */
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./woff/iranyekanwebthinfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./woff/iranyekanweblightfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./woff/iranyekanwebregularfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./woff/iranyekanwebmediumfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./woff/iranyekanwebboldfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./woff/iranyekanwebextraboldfanum.woff");
+}
+@font-face {
+  font-family: "iran-yekan";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./woff/iranyekanwebextrablackfanum.woff");
+}
+
+/* فونت کلمه */
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./woff/KalamehWeb_thin.woff");
+}
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./woff/KalamehWeb_Regular.woff");
+}
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./woff/KalamehWeb_Bold.woff");
+}
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./woff/KalamehWeb_Black.woff");
+}
+
+/* فونت roboto */
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./woff/robotolight.woff");
+}
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./woff/robotoregular.woff");
+}
+@font-face {
+  font-family: "roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./woff/robotobold.woff");
+}
