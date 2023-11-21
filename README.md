@@ -63,5 +63,15 @@
     <tr>
       <td>آشنایی اولیه با توابع</td>
     </tr>
+       <tr>
+      <td rowspan="3">جلسه 8</td>
+      <td> ادامه توابع و  return </td>
+    </tr>
+    <tr>
+      <td>حوضه شناسه ها و مفهوم hoisting</td>
+    </tr>
+    <tr>
+      <td>arrow functions </td>
+    </tr>
   </table>
 </div>
