@@ -63,7 +63,7 @@
     <tr>
       <td>آشنایی اولیه با توابع</td>
     </tr>
-       <tr>
+    <tr>
       <td rowspan="3">جلسه 8</td>
       <td> ادامه توابع و  return </td>
     </tr>
@@ -72,6 +72,16 @@
     </tr>
     <tr>
       <td>arrow functions </td>
+    </tr>
+    <tr>
+      <td rowspan="3">جلسه 9</td>
+      <td>توابع callback و کاربرد آنها</td>
+    </tr>
+    <tr>
+      <td>متدهای sort و forEach برای آرایه ها</td>
+    </tr>
+    <tr>
+      <td>آشنایی مقدماتی با اشیاء</td>
     </tr>
   </table>
 </div>
