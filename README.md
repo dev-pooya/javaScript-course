@@ -83,5 +83,15 @@
     <tr>
       <td>آشنایی مقدماتی با اشیاء</td>
     </tr>
+    <tr>
+      <td rowspan="3">جلسه 10</td>
+      <td>ادامه اشیاء و کلمه this</td>
+    </tr>
+    <tr>
+      <td>حلقه for in و تابع سازنده</td>
+    </tr>
+    <tr>
+      <td>شیء Math</td>
+    </tr>
   </table>
 </div>
