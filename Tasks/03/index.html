@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تمرین 3</title>
+    <link rel="stylesheet" href="./../../fonts/fonts.css" />
+    <style>
+      h1,
+      h2 {
+        font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+
+      ol {
+        padding-inline: 50px;
+      }
+      li {
+        font-size: 18px;
+        font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 300;
+      }
+      pre {
+        direction: ltr;
+        text-align: left;
+        background-color: rgb(20, 20, 20);
+        color: rgb(205, 219, 4);
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 17px;
+      }
+      .mb-0 {
+        margin-bottom: 0;
+      }
+      .mt-5 {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>تمرین 3</h1>
+    <div class="container">
+      <ul>
+        <li>فرض کنید یک کلاس با ۱۰ دانش آموز وجود دارد</li>
+        <li>برای مدل سازی لیست دانش آموزان کل کلاس از یک آرایه استفاده شده است.</li>
+        <li>هر کدام از دانش آموزان به صورت یک آبجکت (object) مدل سازی شده است.</li>
+        <li>آبجکت یکی از دانش آموزان به عنوان نمونه در زیر آمده است.</li>
+
+        <pre>
+        student = {
+          fullname: "tim wilson",
+          age: 25,
+          classes: ["html", "js", "css"],
+          address: {
+            city: "bane",
+            street: "emam",
+            code: 136,
+          },
+        }
+      </pre
+        >
+
+        <li>آرایه دانش آموزان مجموعه ای از آبجکت ها میباشد.</li>
+        <pre>
+        students = [ {fullname:'tim wilson', age:25, ...}, {...}, {...} ]
+      </pre
+        >
+      </ul>
+      <h2>با استفاده از آرایه دانش آموزان که در فایل main.js وجود دارد تکالیف زیر را انجام دهید.</h2>
+
+      <ol>
+        <h3>مرتب سازی (sort)</h3>
+        <li>دانش آموزان را به ترتیب سن مرتب سازی کنید.</li>
+        <li>
+          دانش آموزان را به ترتیب تعداد کلاس هایی که شرکت کرده اند مرتب کنید. (دانش آموزی که کلاس های بیشتری
+          شرکت کرده در اول نمایش داده شود)
+        </li>
+        <li>
+          دانش آموزان را به ترتیب حروف الفبای نام خانوادگی مرتب کنید ، اگر نام خانوادگی یکسان بود بر اساس نام
+          کوچک مرتب شوند.
+        </li>
+        <h3 class="mb-0">فیلتر کردن (filter)</h3>
+        <p>&#x1f448; برای فیلتر کردن میتوانید از تابعی که در جلسه ۹ آموزش داده شد استفاده کنید</p>
+        <li>دانش آموزان کمتر از ۲۱ سال را فیلتر کنید</li>
+        <li>دانش آموزانی که در دوره html شرکت کرده اند را فیلتر کنید</li>
+        <li>دانش آموزانی که در شهر ماکو زندگی میکنند و حداقل در ۲ کلاس شرکت کرده اند را فیلتر کنید</li>
+      </ol>
+      <h2 class="mt-5">موفق باشید ! &#x1F9D0;</h2>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
