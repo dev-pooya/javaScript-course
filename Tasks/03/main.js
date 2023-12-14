@@ -1,4 +1,5 @@
 console.log("task 3");
+
 // لیست دانش آموزان
 const students = [
   {
@@ -9,6 +10,16 @@ const students = [
       city: "maku",
       street: "emam",
       code: 334,
+    },
+  },
+  {
+    fullname: "adam smith",
+    age: 17,
+    classes: [],
+    address: {
+      city: "maku",
+      street: "emam",
+      code: 136,
     },
   },
   {
@@ -81,16 +92,7 @@ const students = [
       code: 124,
     },
   },
-  {
-    fullname: "adam smith",
-    age: 17,
-    classes: [],
-    address: {
-      city: "maku",
-      street: "emam",
-      code: 136,
-    },
-  },
+
   {
     fullname: "tim wilson",
     age: 25,
@@ -105,30 +107,73 @@ const students = [
 
 // SORTING
 
+
+
 // 1
+students.sort(compare);
+function compare(value1, value2) {
+  return value2.age - value1.age;
+}
 
 // 2
+students.sort(function (value1, value2) {
+  return value1.classes.length - value2.classes.length;
+});
 
 // 3
+students.sort((student1, student2) => {
+  let lastname1 = student1.fullname.slice(student1.fullname.indexOf(" "));
+  let lastname2 = student2.fullname.slice(student2.fullname.indexOf(" "));
+
+  if(lastname1 > lastname2){
+    return 1
+  }else if(lastname1 < lastname2){
+    return -1
+  }else{
+    if(student1.fullname > student2.fullname){
+      return 1 
+    }else{
+      return -1
+    }
+  }
+});
+
+console.log('sorted students:', students);
 
 // FILTERING
 
 // برای فیلتر کردن از تابع زیر استفاده کنید که در جلسه ۹ آموزش داده شد
 // تابع را از حالت کامنت خارج کنید  Ctrl + /
 
-// function filter(arr, callback) {
-//   let result = [];
+function filter(arr, callback) {
+  let result = [];
 
-//   for (let i = 0; i < arr.length; i++) {
-//     if (callback(arr[i])) {
-//       result.push(arr[i]);
-//     }
-//   }
-//   return result;
-// }
+  for (let i = 0; i < arr.length; i++) {
+    if (callback(arr[i])) {
+      result.push(arr[i]);
+    }
+  }
+  return result;
+}
 
 // 4
 
+let filtered = filter(
+  students,
+  (student) => student.age < 21
+);
+console.log(filtered);
 // 5
-
+ filtered = filter(
+  students,
+  (student) => student.classes.includes('html')
+);
+console.log(filtered);
 // 6
+ filtered = filter(
+  students,
+  (student) => student.address.city === 'maku' && student.classes.length >= 2
+);
+console.log(filtered);
+
+

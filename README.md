@@ -93,5 +93,20 @@
     <tr>
       <td>شیء Math</td>
     </tr>
+    <tr>
+      <td rowspan="2">جلسه 11</td>
+      <td>حل تمرین ۳</td>
+    </tr>
+    <tr>
+      <td>آشنایی با object Date</td>
+    </tr>
+    <tr>
+      <td rowspan="2">جلسه 12</td>
+      <td>ادامه Date</td>
+    </tr>
+    <tr>
+      <td>آشنایی با مفهوم DOM و انتخاب عناصر وب</td>
+    </tr>
+    
   </table>
 </div>
