@@ -117,5 +117,15 @@
     <tr>
       <td> تولید المنت ها و کار با محتوا</td>
     </tr>
+    <tr>
+      <td rowspan="3">جلسه 14</td>
+      <td>  کار با محتوا و  innerHTML  </td>
+    </tr>
+    <tr>
+      <td>تغییرات در style المنت ها</td>
+    </tr>
+    <tr>
+      <td>آشنایی با رویدادها events</td>
+    </tr>
   </table>
 </div>
