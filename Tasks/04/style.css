@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+html{
+    font-family: 'iran-sans';
+}
+input{
+    font-family: 'iran-sans';
+    font-weight: 300;
+}
+
+button{
+    font-family: 'iran-sans';
+    font-weight: 400;
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 25%, rgba(255,210,115,1) 100%);
+    
+}
+.todo-app{
+    border-radius: 20px;
+    padding: 50px 30px;
+    min-height: 40vh;
+    background-color: rgb(219, 253, 255);
+}
+.input-group{
+    display: flex;
+    gap: 5px;
+}
+.input-group input{
+  
+    font-size: 18px;
+    padding: 15px 18px;
+    border:none;
+outline: none;
+background-color: #fff;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.input-group button{
+    font-size: 18px;
+    padding: 15px 22px;
+    border:none;
+outline: none;
+background-color: #fff;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+text-transform: capitalize;
+cursor: pointer;
+transition: 300ms;
+}
+.input-group button:hover{
+    background-color:  rgba(255,210,115,1);
+}
+ol{
+    margin-top: 40px;
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+  
+    gap: 15px;
+   
+}
+ol li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:5px 22px;
+background-color: #fff;
+border-radius:20px;
+
+}
+ol li button{
+    font-size: 30px;
+    color: #8a8a8a;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+li.done{
+    background-color: rgb(131, 255, 131);
+
+}
+li.done button{
+    color: rgb(1, 92, 1);
+}
+
+svg{
+    width: 250px;
+    margin: 20px auto;
+    display: block;
+}

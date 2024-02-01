@@ -127,5 +127,15 @@
     <tr>
       <td>آشنایی با رویدادها events</td>
     </tr>
+     <tr>
+      <td rowspan="3">جلسه 15</td>
+      <td>رویداد های ماوس</td>
+    </tr>
+    <tr>
+      <td>event object</td>
+    </tr>
+    <tr>
+      <td>رویداد های کیبورد</td>
+    </tr>
   </table>
 </div>
