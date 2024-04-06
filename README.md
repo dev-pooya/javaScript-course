@@ -137,5 +137,37 @@
     <tr>
       <td>رویداد های کیبورد</td>
     </tr>
+     <tr>
+      <td rowspan="3">جلسه 16</td>
+      <td>  Event Flow</td>
+    </tr>
+    <tr>
+      <td>ترتیب اجرای رویداد ها </td>
+    </tr>
+    <tr>
+      <td> حل تمرین ۴ </td>
+    </tr>
+     <tr>
+      <td rowspan='2' >جلسه 17</td>
+      <td>کلیک راست شخصی سازی شده</td>
+    </tr>
+    <tr>
+    <td>حل تمرین ۵</td>
+    </tr>
+     <tr>
+      <td  rowspan='2'>جلسه 18</td>
+      <td>رویدادهای focus blur change فرم ها</td>
+    </tr>
+     <tr>
+      <td>alert prompt confirm </td>
+    </tr>
+      <tr>
+      <td  rowspan='2'>جلسه 19</td>
+      <td>زمانبندی کارها</td>
+    </tr>
+     <tr>
+      <td>انیمیشن ها</td>
+    </tr>
+    
   </table>
 </div>

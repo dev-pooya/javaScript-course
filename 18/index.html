@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> جلسه هجدهم</title>
+    <style>
+      html {
+        font-size: 25px;
+      }
+      button {
+        padding: 20px 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+        margin: 20px;
+        font-size: 23px;
+      }
+      input {
+        padding: 20px;
+        font-size: 25px;
+      }
+      div {
+        padding-block: 10px;
+      }
+      .error {
+        color: red;
+      }
+      select{
+        padding: 10px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="POST" id="register">
+      <div>
+        <label for=""> firstname </label>
+        <input type="text" name="firstname" id="" value="ali" />
+        <span class="error"> </span>
+      </div>
+      <div>
+        <label for=""> age</label>
+        <input type="text" name="age" />
+        <span class="error"> </span>
+      </div>
+      <div>
+          <input type="checkbox" name="city" />
+        <label for="">tabriz</label>
+      <div>
+          <input type="checkbox" />
+        <label for="">tehran</label>
+      <div>
+          <input type="checkbox"   checked/>
+        <label for="">zanjan</label>
+      <div>
+          <input type="checkbox" name="mashad"  />
+        <label for="">mashad</label>
+      </div>
+      <div>
+        <select name="school" id="">
+            <option value="dabestan"> dabestan</option>
+            <option value="bozorg">bozorg </option>
+            <option value="b" selected> b</option>
+            <option value="c" id="c" disabled> c</option>
+        </select>
+      </div>
+     
+    </form>
+    <button id="b1">alert</button>
+    <button id="b2">confirm</button>
+    <button id="b3">prompt</button>
+    <button id="b4">google</button>
+    <script src="./main.js"></script>
+  </body>
+</html>

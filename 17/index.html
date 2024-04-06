@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>جلسه هفدهم</title>
+    <style>
+      :root {
+        --left-offset: 0;
+        --top-offset: 0;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+      }
+      .container {
+        width: 700px;
+        height: 500px;
+        border: 5px solid green;
+      }
+      .menu {
+        font-size: 20px;
+        width: 150px;
+        border: 1px solid blueviolet;
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: none;
+      }
+      li {
+        background-color: rgb(125, 250, 250);
+        list-style: none;
+        padding: 10px 30px;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>کلیک راست روی باکس</h1>
+    <div class="container"></div>
+    <div class="menu">
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>

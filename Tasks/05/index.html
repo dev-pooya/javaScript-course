@@ -1,106 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 4</title>
     <style>
-        h1,
-        h2 {
-          font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          text-align: center;
-        }
-  
-        ol {
-          padding-inline: 50px;
-        }
-        li {
-          font-size: 18px;
-          font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          font-weight: 300;
-        }
-        pre {
-          direction: ltr;
-          text-align: left;
-          background-color: rgb(20, 20, 20);
-          color: rgb(205, 219, 4);
-          padding: 20px;
-          border-radius: 15px;
-          font-size: 17px;
-        }
-        .mb-0 {
-          margin-bottom: 0;
-        }
-        .mt-5 {
-          margin-top: 50px;
-        }
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-           padding: 10px;
+      h1,
+      h2 {
+        font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana,
+          sans-serif;
+        text-align: center;
+      }
 
-
-        }
-        img{
-           display: block;
-           width: 100%;
-           border-radius: 10px;
-           object-fit: cover;
-        }
-        .gallery{
-            width: 40%;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            justify-self: center;
-            align-items: center;
-        }
-        .view{
-            width: 100%;
-            height:550px;
-            overflow:hidden;
-            border-radius: 10px;
-        }
-        .thumbnails{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            gap:5px
-        }
-      .thumbnails img{
-       filter: sepia(100) opacity(.85);
-       cursor: pointer;
-       transition: transform 500ms;
+      ol {
+        padding-inline: 50px;
       }
-      .thumbnails img:hover{
-       transform: scale(.93);
+      li {
+        font-size: 18px;
+        font-family: "iran-sans", "Segoe UI", Tahoma, Geneva, Verdana,
+          sans-serif;
+        font-weight: 300;
       }
-     .thumbnails .active{
-      filter: none;
+      pre {
+        direction: ltr;
+        text-align: left;
+        background-color: rgb(20, 20, 20);
+        color: rgb(205, 219, 4);
+        padding: 20px;
+        border-radius: 15px;
+        font-size: 17px;
       }
-      </style>
-</head>
-<body>
+      .mb-0 {
+        margin-bottom: 0;
+      }
+      .mt-5 {
+        margin-top: 50px;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+      }
+      img {
+        display: block;
+        width: 100%;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      .gallery {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-self: center;
+        align-items: center;
+      }
+      .view {
+        width: 100%;
+        height: 550px;
+        overflow: hidden;
+        border-radius: 10px;
+      }
+      .thumbnails {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+      }
+      .thumbnails img {
+        filter: sepia(100) opacity(0.85);
+        cursor: pointer;
+        transition: transform 500ms;
+      }
+      .thumbnails img:hover {
+        transform: scale(0.93);
+      }
+      .thumbnails .active {
+        filter: none;
+      }
+    </style>
+  </head>
+  <body>
     <h1>تمرین 3</h1>
     <div class="container">
-        <div class="gallery">
-            <div class="view">
-                <img src="./images/Wallpaper Mix 2017.04 - 32.jpg" alt="">
-            </div>
-            <div class="thumbnails">
-                <img src="./images/Wallpaper Mix 2017.04 - 32.jpg" class="active" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 34.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 35.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 38.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 41.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 42.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 43.jpg" alt="">
-                <img src="./images/Wallpaper Mix 2017.04 - 44.jpg" alt="">
-               
-            </div>
+      <div class="gallery">
+        <div class="view">
+          <img src="./images/Wallpaper Mix 2017.04 - 32.jpg" alt="" />
         </div>
-
+        <div class="thumbnails">
+          <img
+            src="./images/Wallpaper Mix 2017.04 - 32.jpg"
+            class="active"
+            alt=""
+          />
+          <img src="./images/Wallpaper Mix 2017.04 - 34.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 35.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 38.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 41.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 42.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 43.jpg" alt="" />
+          <img src="./images/Wallpaper Mix 2017.04 - 44.jpg" alt="" />
+        </div>
+      </div>
     </div>
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
